@@ -1,0 +1,19 @@
+{
+  "name": "bootstrap-book-website",
+  "version": "1.0.0",
+  "description": "[Bài tập] Xây dựng trang web tĩnh giới thiệu về sách (Book Landing Page) - CodeGym",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "keywords": [
+    "codegym",
+    "bootstrap5",
+    "book-landing-page",
+    "html5",
+    "css3",
+    "responsive"
+  ],
+  "author": "HueAn14",
+  "license": "MIT"
+}

@@ -1,0 +1,90 @@
+/* ========================================================
+   RESPONSIVE ADJUSTMENTS FOR MOBILE & TABLET SCREENS
+   ======================================================== */
+
+@media (max-width: 991px) {
+  .navbar-collapse {
+    background: rgba(15, 23, 42, 0.95);
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 15px;
+    backdrop-filter: blur(10px);
+  }
+
+  .hero-wrapper {
+    text-align: center;
+    padding: 50px 0 80px;
+  }
+
+  .hero-description {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .book-cover-mockup {
+    margin-top: 50px;
+  }
+
+  .author-image-box {
+    margin-bottom: 40px;
+  }
+
+  .pricing-card.popular {
+    transform: none;
+    margin: 25px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-title {
+    font-size: 2.4rem;
+  }
+
+  .section-title {
+    font-size: 1.85rem;
+  }
+
+  .author-avatar {
+    width: 260px;
+    height: 320px;
+  }
+
+  .author-experience-badge {
+    right: 20px;
+    bottom: 10px;
+    padding: 10px 16px;
+  }
+
+  .author-stats {
+    justify-content: center;
+  }
+
+  .download-box {
+    padding: 30px 20px;
+  }
+
+  .platform-btn {
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+
+  .footer-col {
+    margin-bottom: 35px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .btn-main, .btn-outline-white {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+
+  .book-card-3d {
+    width: 240px;
+    padding: 20px 16px;
+  }
+}
